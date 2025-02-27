@@ -1,0 +1,11 @@
+p={1:"priya",2:"ritika",3:"racha"}
+print(type(p))
+r=p.copy()
+print(r)
+L=[3,4,5]
+i=p.fromkeys(L,"ABC")
+print(i)
+y=p.get(3)
+print(y)
+a=p.popitem()
+print(a)
